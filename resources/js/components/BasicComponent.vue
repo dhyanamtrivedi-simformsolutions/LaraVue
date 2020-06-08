@@ -1,7 +1,9 @@
 <template>
 <div class="container">
     <div class="row justify-content-center">
-		<advance_task name="my first name"></advance_task>
+		<advance_task name="My first component call"></advance_task>
+		<advance_task name="My second component call"></advance_task>
+		<advance_task name="My third component call"></advance_task>
 	</div>
 </div>
 </template>

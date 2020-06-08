@@ -18,11 +18,19 @@
                 <a class="navbar-brand" href="#">Logo</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link to="/example" class="nav-link">Link one</router-link>
+                        <router-link to="/" class="nav-link">Simple Counter</router-link>
                         <!-- <a class="nav-link" href="#">Link one</a> -->
                     </li>
                     <li class="nav-item">
-                        <router-link to="/test" class="nav-link">Link two</router-link>
+                        <router-link to="/task" class="nav-link">Task CRUD</router-link>
+                        <!-- <a class="nav-link" href="#">Link two</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <router-link to="/basic" class="nav-link">Call Component</router-link>
+                        <!-- <a class="nav-link" href="#">Link two</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <router-link to="/search" class="nav-link">Bind Value</router-link>
                         <!-- <a class="nav-link" href="#">Link two</a> -->
                     </li>
                 </ul>

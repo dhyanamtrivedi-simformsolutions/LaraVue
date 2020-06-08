@@ -25,26 +25,26 @@ Vue.use(VueRouter)
 
 
 const example = require('./components/ExampleComponent.vue').default;
-const test = require('./components/TestComponent.vue').default;
 const task = require('./components/TasksComponent.vue').default;
 const basic = require('./components/BasicComponent.vue').default;
+const search = require('./components/SearchComponent.vue').default;
 const routes = [
 	{
 		path: '/',
-		component: task
-	},
-	{
-		path: '/example',
 		component: example
 	},
 	{
-		path: '/test',
-		component: test
+		path: '/task',
+		component: task
 	},
 	{
 		path: '/basic',
 		component: basic
-	}
+	},
+	{
+		path: '/search',
+		component: search
+	},
 ];
 //Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 

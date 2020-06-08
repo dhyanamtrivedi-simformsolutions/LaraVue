@@ -7,14 +7,14 @@
 </template>
 <script>
     export default {
-    	//props:['name'],
-    	props:{
+    	props:['name'],
+    	/*props:{
     		name:{
     			type:String,
     			default:'default value',
     			required:true
     		}
-    	},
+    	},*/
         mounted() {
             console.log('Test Component mounted.')
         }
